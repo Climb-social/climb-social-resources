@@ -1,1 +1,2 @@
-export default from './Hello'
+import Hello from './Hello';
+export default Hello;
