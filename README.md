@@ -1,6 +1,6 @@
-# Web app
+# React-webapp-starter
 
-Reasonable starting point for building a web app.
+100 Shapes fork of (cesarandreu/web-app)[https://github.com/cesarandreu/web-app]
 
 ## Features
 
@@ -29,16 +29,10 @@ $ npm install
 All scripts are run with `npm run [script]`, for example: `npm run test`.
 
 * `build` - generate a minified build to public folder
-* `dev` - start development server, try it by opening `http://localhost:8080/`
-* `lint` - lint the project using [standard](https://github.com/feross/standard)
+* `start` - start development server, try it by opening `http://localhost:8080/`
 * `test` - lint and run all tests
-* `test:unit` - run all unit tests
 * `tdd` - continuously run unit tests watching for changes
 
 See what each script does by looking at the `scripts` section in [package.json](./package.json).
 
 **NOTE:** to generate a full production build you must run the build command with `NODE_ENV=production`.
-
-## Linting
-
-Use [standard](https://github.com/feross/standard) for linting. It has [editor plugins](https://github.com/feross/standard#editor-plugins).
